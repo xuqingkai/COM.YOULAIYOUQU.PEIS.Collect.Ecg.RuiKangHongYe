@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <PatientInfo>
+        <PatientID>23052210002</PatientID>
+        <Name>测试2</Name>
+        <Sex>F</Sex>
+    </PatientInfo>
+    <ExamInfo>
+        <ExamID></ExamID>
+        <ExamItem>1</ExamItem>
+        <ExamDateTime>20230601011451</ExamDateTime>
+        <DiagnosticianName></DiagnosticianName>
+        <DiagnosticMessage>导联脱落(I,II,III,aVR,aVL,aVF,V1,V2,V3,V4,V5,V6)&#x0D;&#x0A;</DiagnosticMessage>
+        <Technician></Technician>
+        <Barcode></Barcode>
+    </ExamInfo>
+    <ecg>
+        <HR>0</HR>
+        <PR>0</PR>
+        <QRS>0</QRS>
+        <QT>0</QT>
+        <QTc>0</QTc>
+        <Pd>0</Pd>
+        <RV5>0.000</RV5>
+        <RV6>0.000</RV6>
+        <SV1>0.000</SV1>
+        <SV2>0.000</SV2>
+        <Axis_P>0</Axis_P>
+        <Axis_QRS>0</Axis_QRS>
+        <Axis_T>0</Axis_T>
+    </ecg>
+</root>
