@@ -1,0 +1,6 @@
+xdt/*.jpg
+xdt/*.xml
+dat/*.dat
+AutoECGFiles/*.atr
+AutoECGFiles/*.dat
+AutoECGFiles/*.end

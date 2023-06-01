@@ -3,20 +3,19 @@
   <FileMonitoring enable="1">
     <RENCARE enable="1">
       <Interval>1000</Interval>
-      <Directory>E:\xuqingkai\project\ecg-ruikanghongye-e1201\dat\</Directory>
+      <Directory>E:\xuqingkai\project\YLYQ.PEIS.Collect.Ecg.RuiKangHongYe.E1201\dat\</Directory>
       <FileSuffix>*.dat</FileSuffix>
     </RENCARE>
     <FdaXml enable="1">
       <Interval>1000</Interval>
-      <Directory>E:\xuqingkai\project\ecg-ruikanghongye-e1201\FdaXml\</Directory>
+      <Directory>E:\xuqingkai\project\YLYQ.PEIS.Collect.Ecg.RuiKangHongYe.E1201\FdaXml\</Directory>
       <FileSuffix>*.xml</FileSuffix>
     </FdaXml>
   </FileMonitoring>
   <Common>
-    <TransferFolder>E:\xuqingkai\project\ecg-ruikanghongye-e1201\ECGFiles\</TransferFolder>
-    <AutoFileFolder>E:\xuqingkai\project\ecg-ruikanghongye-e1201\AutoECGFiles\</AutoFileFolder>
-    <JPGFileFolder>E:\xuqingkai\project\ecg-ruikanghongye-e1201\xdt\</JPGFileFolder>
+    <TransferFolder>E:\xuqingkai\project\YLYQ.PEIS.Collect.Ecg.RuiKangHongYe.E1201\ECGFiles\</TransferFolder>
+    <AutoFileFolder>E:\xuqingkai\project\YLYQ.PEIS.Collect.Ecg.RuiKangHongYe.E1201\AutoECGFiles\</AutoFileFolder>
+    <JPGFileFolder>E:\xuqingkai\project\YLYQ.PEIS.Collect.Ecg.RuiKangHongYe.E1201\xdt\</JPGFileFolder>
     <UseIDAsFileName>1</UseIDAsFileName>
   </Common>
 </root>
-

@@ -1,15 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-   <Monitor>
+  <Monitor>
     <rencare enable="1">
-      <User>123</User>
-      <Password>111</Password>
-      <Directory>E:\xuqingkai\project\ecg-ruikanghongye-e1201\rencare</Directory>
+      <User>peis</User>
+      <Password>peis</Password>
+      <Directory>E:\xuqingkai\project\YLYQ.PEIS.Collect.Ecg.RuiKangHongYe.E1201\rencare</Directory>
     </rencare>
    </Monitor>
    <Common>
     <MonitorPort>21</MonitorPort>
    </Common>
 </root>
-
-
