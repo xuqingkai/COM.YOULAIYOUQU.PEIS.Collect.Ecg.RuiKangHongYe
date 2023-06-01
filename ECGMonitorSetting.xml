@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <FileMonitoring enable="1">
+    <RENCARE enable="1">
+      <Interval>1000</Interval>
+      <Directory>E:\xuqingkai\project\ecg-ruikanghongye-e1201\dat\</Directory>
+      <FileSuffix>*.dat</FileSuffix>
+    </RENCARE>
+    <FdaXml enable="1">
+      <Interval>1000</Interval>
+      <Directory>E:\xuqingkai\project\ecg-ruikanghongye-e1201\FdaXml\</Directory>
+      <FileSuffix>*.xml</FileSuffix>
+    </FdaXml>
+  </FileMonitoring>
+  <Common>
+    <TransferFolder>E:\xuqingkai\project\ecg-ruikanghongye-e1201\ECGFiles\</TransferFolder>
+    <AutoFileFolder>E:\xuqingkai\project\ecg-ruikanghongye-e1201\AutoECGFiles\</AutoFileFolder>
+    <JPGFileFolder>E:\xuqingkai\project\ecg-ruikanghongye-e1201\xdt\</JPGFileFolder>
+    <UseIDAsFileName>1</UseIDAsFileName>
+  </Common>
+</root>
+

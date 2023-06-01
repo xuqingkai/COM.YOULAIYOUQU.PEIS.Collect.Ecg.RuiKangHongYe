@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<reportstyle>
+	<text field="[#HOSPITALNAME#]" align="center" font-size="14" font-style="bold" left = "5" top="0" right="295" bottom="8"> </text>
+	<text field="[#NORMALTITLE#]" align="center" font-size="12" font-style="bold" left = "5" top="8" right="295" bottom="15"/>
+	<rectangle pen-size="2" left="2" top ="15" right="287" bottom="45"/>
+	
+	
+	<text headcaption="NAME" align="right" font-size="8" font-style="normal" left = "5" top="16" right="19" bottom="20"/>
+	<text headcaption="PATENTID" align="right" font-size="8" font-style="normal" left = "5" top="21" right="19" bottom="25"/>
+	<text headcaption="AGE" align="right" font-size="8" font-style="normal" left = "5" top="26" right="19" bottom="30"/>
+	<text headcaption="GENDER" align="right" font-size="8" font-style="normal" left = "5" top="31" right="19" bottom="35"/>
+	<text headcaption="WARDNO" align="right" font-size="8" font-style="normal" left = "5" top="36" right="19" bottom="40"/>
+	<text headcaption="DEPT" align="right" font-size="8" font-style="normal" left = "5" top="41" right="19" bottom="45"/>
+
+	<text field="[#NAME#]" align="left" font-size="8" font-style="bold" left = "21" top="16" right="40" bottom="20"/>
+	<text field="[#ID#]" align="left" font-size="8" font-style="bold" left = "21" top="21" right="45" bottom="25"/>
+	<text field="[#AGE#]" align="left" font-size="8" font-style="bold" left = "21" top="26" right="40" bottom="30"/>
+	<text field="[#GENDER#]" align="left" font-size="8" font-style="bold" left = "21" top="31" right="40" bottom="35"/>
+	<text field="[#WARDID#]" align="left" font-size="8" font-style="bold" left = "21" top="36" right="40" bottom="40"/>
+	<text field="[#DEPT#]" align="left" font-size="8" font-style="bold" left = "21" top="41" right="40" bottom="45"/>
+
+	<text headcaption="BEDNO" align="right" font-size="8" font-style="normal" left = "17" top="16" right="58" bottom="20"/>
+	<text field="[#VISITTILTLE#]" align="right" font-size="8" font-style="normal" left = "17" top="21" right="58" bottom="25"/>
+	<text field="[#BEDNO#]" align="left" font-size="8" font-style="bold" left = "60" top="16" right="80" bottom="20"/>
+	<text field="[#VISITID#]" align="left" font-size="8" font-style="bold" left = "60" top="21" right="80" bottom="25"/>
+	<infomark field="examinfo_start"/>
+    	<text headcaption="HR" align="right" font-size="8" font-style="normal" left = "17" top="26" right="58" bottom="30"/>
+    	<text headcaption="PDUR" align="right" font-size="8" font-style="normal" left = "17" top="31" right="58" bottom="35"/>
+	<text headcaption="PRINTER" align="right" font-size="8" font-style="normal" left = "17" top="36" right="58" bottom="40"/>
+	<text headcaption="QRSINTER" align="right" font-size="8" font-style="normal" left = "17" top="41" right="58" bottom="45"/>
+	
+	<text field="[#HR#]" align="left" font-size="8" font-style="bold" left = "60" top="26" right="80" bottom="30"/>
+   	<text field="[#PDUR#]" align="left" font-size="8" font-style="bold" left = "60" top="31" right="80" bottom="35"/>
+	<text field="[#PRINTER#]" align="left" font-size="8" font-style="bold" left = "60" top="36" right="80" bottom="40"/>
+	<text field="[#QRSINTER#]" align="left" font-size="8" font-style="bold" left = "60" top="41" right="80" bottom="45"/>
+
+	<text headcaption="QTQTC" align="right" font-size="8" font-style="normal" left = "74" top="16" right="100" bottom="20"/>
+	<text headcaption="PQRSDEG" align="right" font-size="8" font-style="normal" left = "74" top="21" right="100" bottom="25"/>
+    <text headcaption="RV5SV1" align="right" font-size="8" font-style="normal" left = "74" top="26" right="100" bottom="30"/>
+	<text headcaption="RV5ADDSV1" align="right" font-size="8" font-style="normal" left = "74" top="31" right="100" bottom="35"/>
+	<text headcaption="RV6SV2" align="right" font-size="8" font-style="normal" left = "74" top="36" right="100" bottom="40"/>
+		
+	<text field="[#QTQTC#]" align="left" font-size="8" font-style="bold" left = "102" top="16" right="130" bottom="20"/>
+	<text field="[#PQRSDEG#]" align="left" font-size="8" font-style="bold" left = "102" top="21" right="130" bottom="25"/>
+	<text field="[#RV5SV1#]" align="left" font-size="8" font-style="bold" left = "102" top="26" right="130" bottom="30"/>
+	<text field="[#RV5ADDSV1#]" align="left" font-size="8" font-style="bold" left = "102" top="31" right="130" bottom="35"/>
+	<text field="[#RV6SV2#]" align="left" font-size="8" font-style="bold" left = "102" top="36" right="130" bottom="40"/>
+    <infomark field="examinfo_end"/>
+    <text headcaption="CONCLUSION" align="left" font-size="8" font-style="bold" left = "130" top="16" right="200" bottom="20"/>
+    <text field="[#CONCLUSION#]" align="left|wordbreak" font-size="10" font-style="normal" left = "137" top="21" right="285" bottom="45"/>
+
+    <text headcaption="DOCMARK" left="245" top="40" right="265" bottom="45" font-size="8"/>
+    <bitmap left="265" right="285" top="30" bottom="45" field="2"/>
+     
+    <wavenet left="2" right="287" top="47" bottom="192" gridcolor1="RGB(50,50,50)" gridcolor2="RGB(0,0,0)" backdot="2"/>
+    <ecgwave field="Raw" left="7" right="287" top="47" bottom="192" speed="25" gain="10" LineWidth="5"/>
+
+    <text headcaption="SWVERSION" align="left" font-size="8" font-style="normal" left="2" top ="193" right="30" bottom="198"/>
+    <text field="[#FILTER#]" align="left" font-size="8" font-style="normal" left="30" top ="193" right="80" bottom="198"/>
+    <text headcaption="RECTIME" field="[#RECTIME#]" align="left" font-size="8" font-style="normal" left="80" top ="193" right="130" bottom="198" colon="1"/>
+    <text headcaption="PRTTIME" field="[#PRTTIME#]" align="left" font-size="8" font-style="normal" left="130" top ="193" right="180" bottom="198" colon="1"/>
+    <text field="[#REPTHINT#]" align="right" font-size="8" font-style="bold" left="130" top ="193" right="262" bottom="198"/>
+</reportstyle>
+
+
+
+
+
+
+
+
+
+
+
+

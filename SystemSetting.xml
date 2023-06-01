@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <Basesetting>
+        <DateFormat>0</DateFormat>
+    </Basesetting>
+    <Showsetting>
+        <Antialiase />
+        <Axis />
+        <Gridclr1mm />
+        <Gridclr5mm />
+        <Waveclr />
+        <Cabrera />
+        <Leadnum />
+        <Leadseq />
+        <Leadseq_15lead />
+        <BaselineFilter />
+        <LowpassFilter />
+        <NotchFilter />
+    </Showsetting>
+    <Sample>
+        <DeviceName />
+        <DevicePort />
+        <RestECGSamplingSec />
+        <HRVSamplingMin />
+        <VCGSamplingSec />
+        <HRVSamplingLeadType />
+        <LeadStandard />
+        <PaceLead />
+    </Sample>
+    <Algorithm>
+        <DiagnoseShow />
+    </Algorithm>
+    <UI>
+        <Samplingviewmode />
+        <Analysisviewmode />
+        <AxisScaleratio />
+    </UI>
+    <Print>
+        <PaperOrient />
+        <PaperSize />
+        <Rhythm1 />
+        <Rhythm2 />
+        <Rhythm3 />
+        <Printseq />
+        <Baselineadjust />
+        <AddNo />
+    </Print>
+</root>
