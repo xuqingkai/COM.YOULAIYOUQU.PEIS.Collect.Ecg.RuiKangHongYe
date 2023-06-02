@@ -1,6 +1,10 @@
-xdt/*.jpg
-xdt/*.xml
-dat/*.dat
-AutoECGFiles/*.atr
-AutoECGFiles/*.dat
-AutoECGFiles/*.end
+/*.txt
+
+/AutoECGFiles/*.atr
+/AutoECGFiles/*.dat
+/AutoECGFiles/*.end
+
+/dat/*.dat
+
+/xdt/*.jpg
+/xdt/*.xml
